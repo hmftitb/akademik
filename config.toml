@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://hmftitb.github.io/akademik/"
+DefaultContentLanguage = "id"
+languageCode = "id"
+title = "Open Knowledge HMFT-ITB"
+theme = "skullers"
+pluralizelisttitles = false
+canonifyURLs = true
