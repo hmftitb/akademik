@@ -6,7 +6,7 @@
      <title>Document</title>
 </head>
 <body>
-     {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
+     {{ partial "header" (dict "Title" .Title) }}
      {{.Content}}
      {{ range .Sections }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
