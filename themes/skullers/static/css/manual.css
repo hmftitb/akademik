@@ -1,0 +1,133 @@
+body {
+  font-family: "Computer Modern Serif", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  background: #FFFFFF;
+}
+
+article {
+  font-size: 1em;
+  line-height: 1.25;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+article header {
+  border-bottom: 0.25px solid black;
+}
+
+header h1, h2, h3 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 1.2em;
+  line-height: 1.14;
+}
+
+header h2 {
+  font-size: 1.625em;
+  line-height: 1.15;
+  margin: 0.5em 0;
+}
+
+header h3 {
+  font-size: 1em;
+  line-height: 1.25;
+  margin: 0.5em 0 1em;
+}
+
+.info {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0 0 0.5em;
+}
+
+h1 {
+  font-size: 1em;
+  line-height: 1.25;
+  font-weight: bold;
+  margin: 2em 0 0.5em;
+}
+
+p {
+  margin: 0 0 0.5em;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: right;
+  margin: 0;
+}
+
+blockquote p::before {
+  content: "(";
+}
+
+blockquote p::after {
+  content: ") ■";
+}
+
+@media (min-width: 43.75em) {
+  article {
+    max-width: 720px;
+    font-size: 1.2em;
+    line-height: 1.375;
+    margin: 100px auto;
+    padding: 0 40px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  header h2 {
+    font-size: 2em;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  header h3 {
+    font-size: 1em;
+    line-height: 1.375;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1em;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+@media (min-width: 56.25em) {
+  header h1 {
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+
+  header h2 {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+}
+
+img {
+  max-width: 100%;
+}
