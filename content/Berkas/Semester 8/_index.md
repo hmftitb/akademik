@@ -1,4 +1,4 @@
 ---
-title: Semester 6
+title: Semester 8
 layout: semester
 ---

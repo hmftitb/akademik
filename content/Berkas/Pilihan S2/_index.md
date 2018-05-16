@@ -1,4 +1,4 @@
 ---
-title: Semester 6
+title: Pilihan S2
 layout: semester
 ---
