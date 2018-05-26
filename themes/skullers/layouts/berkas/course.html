@@ -9,11 +9,28 @@
   {{ partial "header" (dict "Title" .Title) }}
 
   <div style="margin:10px; padding:10px; ">{{.Content}}</div>
-  {{ range .Pages }}
+
+  <h1>Ujian</h1>
+  {{ range .Pages}}
+  {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
+  {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
     <div style="margin:10px; padding:10px; ">
-      <div style="font-size:20px;"><a href="{{.URL}}">{{.Title}}</a></div>
-      <div style="color:grey; font-size:16px;">{{ dateFormat "January 2006" .Date }}</div>
+      <div style="font-size:20px;"><a href="{{ .URL }}">{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</a></div>
+      <div style="color:grey; font-size:16px;">{{ index $.Site.Data.tra_id.months (string .Date.Month) }} {{ .Date.Year }}</div>
     </div>
+  {{ end }}
+  {{ end }}
+
+  <h1>Kuis dan PR</h1>
+  {{ range .Pages}}
+  {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
+  {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
+  {{ else }}
+    <div style="margin:10px; padding:10px; ">
+      <div style="font-size:20px;"><a href="{{ .URL }}">{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</a></div>
+      <div style="color:grey; font-size:16px;">{{ index $.Site.Data.tra_id.months (string .Date.Month) }} {{ .Date.Year }}</div>
+    </div>
+  {{ end }}
   {{ end }}
 
   {{ partial "footer" . }}
