@@ -27,7 +27,7 @@
   {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
   {{ else }}
     <div style="margin:10px; padding:10px; ">
-      <div style="font-size:20px;"><a href="{{ .URL }}">{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</a></div>
+      <div style="font-size:20px;"><a href="{{ .URL }}">{{ string .Params.test_type }} {{ dateFormat "2006" .Date }}</a></div>
       <div style="color:grey; font-size:16px;">{{ index $.Site.Data.tra_id.months (string .Date.Month) }} {{ .Date.Year }}</div>
     </div>
   {{ end }}

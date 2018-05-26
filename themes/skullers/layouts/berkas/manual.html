@@ -25,7 +25,7 @@
 
   <article>
     <header>
-      <h1>aaa</h1>
+      <h1>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</h1>
     </header>
     <div style="color:grey; font-size:16px;">{{ dateFormat "January 2006" .Date }}</div>
     {{.Content}}
