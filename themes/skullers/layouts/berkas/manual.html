@@ -2,8 +2,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/manual.css">
-  <link rel="stylesheet" href="/fonts/computer-serif/cmun-serif.css">
+  <link rel="stylesheet" href="{{ "/css/manual.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/fonts/computer-serif/cmun-serif.css" | relURL }}">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
@@ -25,7 +25,7 @@
 
   <article>
     <header>
-      <h1>{{.Title}}</h1>
+      <h1>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</h1>
     </header>
     <div style="color:grey; font-size:16px;">{{ dateFormat "January 2006" .Date }}</div>
     {{.Content}}

@@ -4,4 +4,3 @@ languageCode = "id"
 title = "Open Knowledge HMFT-ITB"
 theme = "skullers"
 pluralizelisttitles = false
-canonifyURLs = true
