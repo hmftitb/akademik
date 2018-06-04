@@ -1,6 +1,7 @@
 ---
 title: TF 3204
 layout: course
+course_name: Teknik Akustik
 ---
 
 Perilaku dan sifat dasar suara, transduser suara, pengukuran amplitudo dan frekuensi, konstanta waktu dan
