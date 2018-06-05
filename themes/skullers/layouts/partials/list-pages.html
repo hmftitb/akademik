@@ -1,0 +1,36 @@
+{{/*
+    Calling partial:
+    {{ partial "list-pages.html" . }}
+*/}}
+
+<div class="level list is-mobile">
+  <a class="level-left clickable-link" href="{{ .URL }}">
+    <div class="level-item">
+      <span class="icon">
+        <i class="far fa-file-alt"></i>
+      </span>
+    </div>
+    <div class="level-item is-size-5">
+      <span>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }}</span>
+    </div>
+    <div style="color:grey; font-size:16px;">
+      {{ index $.Site.Data.tra_id.months (string .Date.Month) }}
+      {{ .Date.Year }}
+    </div>
+    <div class="level-item is-hidden-hover">
+      <span class="icon">
+        <i class="fas fa-chevron-right"></i>
+      </span>
+    </div></a>
+  <div class="level-right is-hidden-mobile">
+    <div class="level-item is-hidden-hover">
+      <a class="button is-small is-danger is-outlined" disabled="disabled">
+        <span class="icon">
+          <i class="fas fa-download"></i>
+        </span></a>
+    </div>
+    <div class="level-item">
+      <span class="tag {{ if .Params.solutions }}is-success{{ else }}is-light{{ end }}">solusi</span>
+    </div>
+  </div>
+</div>

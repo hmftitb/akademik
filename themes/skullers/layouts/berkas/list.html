@@ -1,0 +1,46 @@
+{{ define "main" }}
+<section class="hero is-primary is-bold" style="font-family: 'Nunito'">
+  <div class="hero-body">
+    <div class="columns is-desktop">
+      <div class="column is-8 is-offset-2">
+        <h1 class="title">
+          {{ .Title }}
+        </h1>
+        <h2 class="subtitle">
+          {{ .Params.course_name }}
+        </h2>
+        <p>
+          {{ .Content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="font-family: 'Nunito'">
+  <div class="columns is-desktop">
+    <div class="column is-8 is-offset-2">
+      <h1 class="title">Ujian</h1>
+      {{ range .Pages}}
+        {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
+        {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
+          {{ partial "list-pages.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="columns is-desktop">
+    <div class="column is-8 is-offset-2">
+      <h1 class="title">Kuis dan PR</h1>
+      {{ range .Pages}}
+        {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
+        {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
+        {{ else }}
+          {{ partial "list-pages.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
