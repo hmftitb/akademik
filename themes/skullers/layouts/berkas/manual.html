@@ -1,34 +1,136 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ "/css/manual.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "/fonts/computer-serif/cmun-serif.css" | relURL }}">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
+  <link rel="stylesheet" href="{{ "/css/bulma.min.css" | relURL }}">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        displayMath: [['$$','$$'], ['\\[','\\]']],
-        processEscapes: true,
-        processEnvironments: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        TeX: { equationNumbers: { autoNumber: "AMS" },
-        extensions: ["AMSmath.js", "AMSsymbols.js"] }
-      }
-    });
+    MathJax.Hub.Config({ tex2jax: { displayMath: [['$$','$$'], ['\\[','\\]']], processEscapes: true, processEnvironments: true, skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'], TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js",
+    "AMSsymbols.js"] } } });
   </script>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i');
+    /* Collapsibles */
+
+    .has-collapsible {
+      cursor: pointer;
+      width: 100%;
+      transition: 0.4s;
+    }
+
+    .has-collapsible .icon {
+      transition: 0.2s;
+    }
+
+    .active .icon {
+      -ms-transform: scaleY(-1);     /* IE 9 */
+      -webkit-transform: scaleY(-1); /* Safari */
+      transform: scaleY(-1);         /* Standard syntax */
+    }
+
+    .is-collapsible {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .content h1 {
+      font-size: 1.1em;
+    }
+
+    .content blockquote {
+      font-style: italic;
+      text-align: right;
+      margin: 0;
+      background-color: inherit;
+      border-left: 0;
+    }
+
+    .content blockquote p::before {
+      content: "(";
+    }
+
+    .content blockquote p::after {
+      content: ") ■";
+    }
+  </style>
 </head>
+
 <body>
   {{ partial "header" (dict "Title" "Back to Home") }}
+  <section class="section">
+    <div class="columns is-desktop">
+      <div class="column is-8 is-offset-2">
+        <div class="columns is-vcentered">
+          <div class="column">
+            {{ partial "breadcrumbs" . }}
+          </div>
+          <div class="column is-narrow is-hidden-mobile">
+            <a class="button is-danger is-outlined" onclick="window.print()">
+              <span class="icon"><i class="far fa-file-pdf"></i></span>
+              <span>Download PDF</span>
+            </a>
+          </div>
+        </div>
 
-  <article>
-    <header>
-      <h1>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }} {{ dateFormat "2006" .Date }}</h1>
-    </header>
-    <div style="color:grey; font-size:16px;">{{ dateFormat "January 2006" .Date }}</div>
-    {{.Content}}
-  </article>
+        <section class="section has-text-centered" style="padding: 4rem 0 3rem;">
+        <div class="subtitle is-uppercase is-6 is-spaced" style="font-family: 'Open Sans Light'">
+          <strong>{{ .Params.course_code }}</strong> {{ .Params.course_name }}
+        </div>
+        <h1 class="title is-2" style="font-family: 'Lora'; font-style: italic; font-weight: normal;">
+          {{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }}
+        </h1>
+      </section>
+
+        <div class="has-text-centered-mobile" style="font-family: 'Open Sans'">
+        <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+        <span>{{ delimit .Params.lecturer ", " }} · Semester {{ .Params.semester }}, {{ index $.Site.Data.tra_id.months (string .Date.Month) }} <strong>{{ .Date.Year }}</strong></span>
+      </div>
+
+        <!-- Download button for mobile -->
+        <section class="section is-hidden-tablet" style="padding: 1.5rem">
+          <a class="button is-danger is-outlined is-fullwidth" onclick="window.print()">
+            <span class="icon"><i class="far fa-file-pdf"></i></span>
+            <span>Download PDF</span>
+          </a>
+        </section>
+
+        <hr style="margin-top: 0.5em; margin-bottom: 3rem;">
+
+        <div class="content is-medium" style="font-family: 'Lora';">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+
+<section class="section has-text-centered">
+  <div>Update terakhir {{ .Params.update }}. <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">Edit di GitHub</a>.</div>
+</section>
+
+
+  </section>
+
+  <script>
+    /* Collapsibles Trigger */
+    var coll = document.getElementsByClassName("has-collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
 </body>
+
 </html>
