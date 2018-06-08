@@ -22,8 +22,8 @@
     <div class="column is-8 is-offset-2">
       <h1 class="title">Ujian</h1>
       {{ range .Pages}}
-        {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
-        {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
+        {{ $type := substr .Params.test_type 0 3 }}
+        {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE") $type }}
           {{ partial "list-pages.html" . }}
         {{ end }}
       {{ end }}
@@ -34,8 +34,8 @@
     <div class="column is-8 is-offset-2">
       <h1 class="title">Kuis dan PR</h1>
       {{ range .Pages}}
-        {{ $type := strings.TrimRight "1234567890 " .Params.test_type }}
-        {{ if in (slice "UTS" "UAS" "Ujian" "Tes") $type }}
+        {{ $type := substr .Params.test_type 0 3 }}
+        {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE") $type }}
         {{ else }}
           {{ partial "list-pages.html" . }}
         {{ end }}

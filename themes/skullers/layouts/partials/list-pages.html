@@ -5,19 +5,19 @@
 
 <div class="level list is-mobile">
   <a class="level-left clickable-link" href="{{ .URL }}">
-    <div class="level-item">
+    <div class="level-item has-text-link">
       <span class="icon">
         <i class="far fa-file-alt"></i>
       </span>
     </div>
     <div class="level-item is-size-5">
-      <span>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" }}</span>
+      <span>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" | replaceRE "FE" "FE-like Exam" }}</span>
     </div>
     <div style="color:grey; font-size:16px;">
       {{ index $.Site.Data.tra_id.months (string .Date.Month) }}
       {{ .Date.Year }}
     </div>
-    <div class="level-item is-hidden-hover">
+    <div class="level-item is-hidden-hover has-text-link">
       <span class="icon">
         <i class="fas fa-chevron-right"></i>
       </span>
