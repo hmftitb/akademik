@@ -29,6 +29,16 @@ Approximately how many grams of $$KClO_3$$ must be used to produce $$6.5 \text{ 
 4. 299.5 g
 5. 199.7 g
 
+{{<solutions-start>}}
+
+# Solusi 1
+
+[...]
+
+> [...]
+
+{{<solutions-end>}}
+
 # Soal 2
 
 $$17 \text{ g}$$ of $$Ag_2O_{(s)}$$ are heated to produce oxygen gas ($$O_2$$) as follows.
@@ -45,6 +55,16 @@ Oxygen gas is collected at $$36^\circ \text{ C}$$ over water. The water vapor pr
 4. 1.01 mL
 5. 0.93 mL
 
+{{<solutions-start>}}
+
+# Solusi 2
+
+[...]
+
+> [...]
+
+{{<solutions-end>}}
+
 # Soal 3
 
 What is the maximum possible positive oxidation number for the element Br?
@@ -53,6 +73,16 @@ What is the maximum possible positive oxidation number for the element Br?
 2. +1
 3. +4
 4. +7
+
+{{<solutions-start>}}
+
+# Solusi 3
+
+[...]
+
+> [...]
+
+{{<solutions-end>}}
 
 # Soal 4
 
@@ -81,6 +111,17 @@ What is the equilibrium constant for the reaction?
 3. $$6.9 \times 10^{-3}$$
 4. $$5.2 \times 10^{-3}$$
 
+{{<solutions-start>}}
+
+# Solusi 4
+
+[...]
+
+> [...]
+
+{{<solutions-end>}}
+
+[...]
 
 # Soal 60
 
@@ -108,6 +149,6 @@ $$
 
 (*hal. 112*)
 
-> @reyhanra
+> reyhanra
 
 {{<solutions-end>}}
