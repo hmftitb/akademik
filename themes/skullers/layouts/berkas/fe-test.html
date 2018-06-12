@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="section">
+  <div class="columns is-desktop">
+    <div class="column is-8 is-offset-2">
+      <div class="columns is-vcentered">
+        <div class="column">
+          {{ partial "breadcrumbs" . }}
+        </div>
+        <div class="column is-narrow is-hidden-mobile">
+          <a class="button is-danger is-outlined" onclick="window.print()">
+            <span class="icon">
+              <i class="far fa-file-pdf"></i>
+            </span>
+            <span>Download PDF</span>
+          </a>
+        </div>
+      </div>
+
+      <section class="section has-text-centered" style="padding: 4rem 0 3rem;">
+        <div class="subtitle is-uppercase is-6 is-spaced" style="font-family: 'Open Sans Light'">
+          <strong>{{ .Params.course_code }}</strong>
+          {{ .Params.course_name }}
+        </div>
+        <h1 class="title is-2" style="font-family: 'Lora'; font-style: italic; font-weight: normal;">
+          Fundamentals of Engineering-like Exam
+        </h1>
+        <div class="subtitle is-3" style="font-family: 'Lora'; font-style: italic; font-weight: normal;">
+          Sesi {{ .Params.session }},
+          {{ index $.Site.Data.tra_id.months (string .Date.Month) }}
+          {{ .Date.Year }}
+        </div>
+      </section>
+
+      <!-- Download button for mobile -->
+      <section class="section is-hidden-tablet" style="padding: 1.5rem">
+        <a class="button is-danger is-outlined is-fullwidth" onclick="window.print()">
+          <span class="icon">
+            <i class="far fa-file-pdf"></i>
+          </span>
+          <span>Download PDF</span>
+        </a>
+      </section>
+
+      <hr style="margin-top: 0.5em; margin-bottom: 3rem;">
+
+      <div class="content is-medium" style="font-family: 'Lora';">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <section class="section has-text-centered">
+    <div>Update terakhir
+      {{ .GitInfo.AuthorDate.Day }}
+      {{ index $.Site.Data.tra_id.months (string .GitInfo.AuthorDate.Month) }}
+      {{ .GitInfo.AuthorDate.Year }}.
+      <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">Edit berkas ini</a> atau <a href="https://github.com/hmftitb/akademik/issues/new?template=kesalahan-berkas.md">laporkan kesalahan</a>.</div>
+  </section>
+</section>
+{{ end }}

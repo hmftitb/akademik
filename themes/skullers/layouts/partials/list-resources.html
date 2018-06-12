@@ -1,0 +1,38 @@
+{{/*
+    Calling partial:
+    {{ partial "list-pages.html" . }}
+*/}}
+
+<div class="level list is-mobile">
+  <a class="level-left clickable-link" href="{{ .RelPermalink }}">
+    <div class="level-item has-text-link">
+      <span class="icon">
+        {{ if eq .ResourceType "application" }}
+          <i class="far fa-file-pdf"></i>
+        {{ else if eq .ResourceType "image" }}
+          <i class="far fa-image"></i>
+        {{ else }}
+          <i class="far fa-file"></i>
+        {{ end }}
+      </span>
+    </div>
+    <div class="level-item is-size-5">
+      <span>{{ string .Name | title | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" | replaceRE "FE" "FE-like Exam" }}</span>
+    </div>
+    <div style="color:grey; font-size:16px;">
+      {{ .ResourceType | replaceRE "application" "document" }}
+    </div>
+    <div class="level-item is-hidden-hover has-text-link">
+      <span class="icon">
+        <i class="fas fa-chevron-right"></i>
+      </span>
+    </div></a>
+  <div class="level-right is-hidden-mobile">
+    <div class="level-item is-hidden-hover">
+      <a class="button is-small is-danger is-outlined" disabled>
+        <span class="icon">
+          <i class="fas fa-download"></i>
+        </span></a>
+    </div>
+  </div>
+</div>

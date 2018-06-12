@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Site title -->
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href='{{ "/css/bulma.min.css" | relURL }}'>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" async></script>
+    <!-- MathJax -->
+    {{ block "math" . }}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { displayMath: [['$$','$$'], ['\\[','\\]']], processEscapes: true, processEnvironments: true, skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'], TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js",
+        "AMSsymbols.js"] } } });
+      </script>
+    {{ end }}
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i|Nunito:600,600i');
+      /* Collapsibles */
+
+      .has-collapsible {
+        cursor: pointer;
+        width: 100%;
+        transition: 0.4s;
+        margin-bottom: 1rem;
+      }
+
+      .has-collapsible .icon {
+        transition: 0.2s;
+      }
+
+      .active .icon {
+        -ms-transform: scaleY(-1);
+        /* IE 9 */
+        -webkit-transform: scaleY(-1);
+        /* Safari */
+        transform: scaleY(-1);
+        /* Standard syntax */
+      }
+
+      .is-collapsible {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+      .content h1 {
+        font-size: 1.1em;
+      }
+
+      .content blockquote {
+        font-style: italic;
+        text-align: right;
+        margin: 0;
+        background-color: inherit;
+        border-left: 0;
+      }
+
+      .content blockquote p::before {
+        content: "(";
+      }
+
+      .content blockquote p::after {
+        content: ") ■";
+      }
+
+      .level.list {
+        line-height: 4rem;
+        border-bottom: 1px solid #DBDBDB;
+        padding-left: 1rem;
+        margin-bottom: 0 !important;
+      }
+
+      .level.list:hover {
+        background-color: #F5F5F5;
+      }
+
+      .list .is-hidden-hover {
+        display: none;
+      }
+
+      .list:hover .is-hidden-hover {
+        display: flex;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Site header -->
+    {{ block "header" . }}
+      {{ partial "header" (dict "Title" "Back to Home") }}
+    {{ end }}
+
+    <!-- Page body -->
+    {{ block "main" . }}
+    {{ end }}
+
+    <!-- Site footer -->
+    {{ block "footer" . }}
+      {{ partial "footer" . }}
+    {{ end }}
+
+    <!-- Necessary scripts -->
+    <script>
+      /* Collapsibles Trigger */
+      var coll = document.getElementsByClassName("has-collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

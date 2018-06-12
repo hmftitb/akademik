@@ -1,0 +1,127 @@
+{{ define "main" }}
+  <section class="hero is-dark is-bold" style="font-family: 'Nunito'">
+    <div class="hero-body">
+      <div class="columns is-desktop">
+        <div class="column is-8 is-offset-2">
+          <div class="subtitle has-text-centered is-uppercase is-5">
+            {{ .Title }}
+          </div>
+          <h1 class="title is-2 has-text-centered" style="font-family: 'Lora'; font-style: italic; font-weight: normal;">
+            {{ .Params.course_name }}
+          </h1>
+            {{ .Content }}
+          <!--div class="level is-hidden-mobile" style="padding-top: 1rem;">
+            <div class="level-left">
+            <div class="level-item" style="padding: 0 0.75rem; border-left: 1px solid #DBDBDB">
+              <div>
+                <p class="heading">Kredit</p>
+                <p><span class="is-size-5">3</span> <span class="is-size-6">SKS</span></p>
+              </div>
+            </div>
+            <div class="level-item" style="padding-left: 0.75rem; border-left: 1px solid #DBDBDB">
+              <div>
+                <p class="heading">Referensi</p>
+                <p><span class="is-size-5">Sadiku et al., Fundamentals of Electric Circuit</span> <span class="is-size-6">dan 1 lainnya</span></p>
+              </div>
+            </div>
+
+            </div>
+          </div-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="font-family: 'Nunito'">
+    <div class="columns is-desktop">
+      <div class="column is-8 is-offset-2">
+        <section class="level is-marginless">
+          <div class="level-left">
+          </div>
+          <div class="level-right is-marginless">
+            <div class="level-item">
+              <a class="button is-link" disabled>
+                <span class="icon">
+                  <i class="fas fa-download"></i>
+                </span>
+                <span>Download semua berkas</span></a>
+            </div>
+            <div class="level-item">
+              <a class="button is-info" disabled>
+                <span class="icon">
+                  <i class="fas fa-download"></i>
+                </span>
+                <span>File pendukung</span></a>
+            </div>
+            <div class="level-item">
+              <a class="button is-dark" href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace .Dir " " "%20" }}">
+                <span class="icon">
+                  <i class="fas fa-github"></i>
+                </span>
+                <span>Akses repositori</span></a>
+            </div>
+          </div>
+        </section>
+        <section class="section" style="font-family: 'Nunito'; padding: 1.5rem 0;">
+          <div class="card">
+            <header class="card-header" style="border-top: 4px solid #1212DD">
+              <h1 class="card-header-title is-size-4" style="padding-left: 1rem">Berkas Ujian</h1>
+            </header>
+            <div class="card-content is-paddingless">
+              {{ range .Pages }}
+                {{ $type := substr .Params.test_type 0 3 }}
+                {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE") $type }}
+                  {{ partial "list-pages.html" . }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <header class="card-header">
+              <h1 class="card-header-title" style="padding-left: 1rem">
+                <em>Raw files</em>
+              </h1>
+            </header>
+            <div class="card-content is-paddingless">
+              {{ range .Resources }}
+                {{ $type := substr .Name 0 3 }}
+                {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE ") $type }}
+                  <a href="{{ .RelPermalink }}">{{ .Name | title }}</a><br/>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </section>
+
+        <section class="section" style="font-family: 'Nunito'; padding: 1.5rem 0;">
+          <div class="card">
+            <header class="card-header" style="border-top: 4px solid #1212DD">
+              <h1 class="card-header-title is-size-4" style="padding-left: 1rem">Berkas Non-Ujian</h1>
+            </header>
+            <div class="card-content is-paddingless">
+              {{ range .Pages }}
+                {{ $type := substr .Params.test_type 0 3 }}
+                {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE") $type }}
+                {{ else }}
+                  {{ partial "list-pages.html" . }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <header class="card-header">
+              <h1 class="card-header-title" style="padding-left: 1rem">
+                <em>Raw files</em>
+              </h1>
+            </header>
+            <div class="card-content is-paddingless">
+              {{ range .Resources }}
+                {{ $type := substr .Name 0 3 }}
+                {{ if in (slice "UTS" "UAS" "Uji" "Tes" "FE ") $type }}
+                {{ else }}
+                  {{ partial "list-resources.html" . }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+{{ end }}
