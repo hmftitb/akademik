@@ -4,18 +4,23 @@
 */}}
 
 <div class="level list is-mobile">
-  <a class="level-left clickable-link" href="{{ .URL }}">
+  <a class="level-left clickable-link" href="{{ .RelPermalink }}">
     <div class="level-item has-text-link">
       <span class="icon">
-        <i class="far fa-file-alt"></i>
+        {{ if eq .ResourceType "application" }}
+          <i class="far fa-file-pdf"></i>
+        {{ else if eq .ResourceType "image" }}
+          <i class="far fa-image"></i>
+        {{ else }}
+          <i class="far fa-file"></i>
+        {{ end }}
       </span>
     </div>
     <div class="level-item is-size-5">
-      <span>{{ string .Params.test_type | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" | replaceRE "FE" "FE-like Exam" }}</span>
+      <span>{{ string .Name | title | replaceRE "UTS" "Ujian Tengah Semester" | replaceRE "UAS" "Ujian Akhir Semester" | replaceRE "FE" "FE-like Exam" }}</span>
     </div>
     <div style="color:grey; font-size:16px;">
-      {{ index $.Site.Data.tra_id.months (string .Date.Month) }}
-      {{ .Date.Year }}
+      {{ .ResourceType | replaceRE "application" "document" }}
     </div>
     <div class="level-item is-hidden-hover has-text-link">
       <span class="icon">
@@ -28,9 +33,6 @@
         <span class="icon">
           <i class="fas fa-download"></i>
         </span></a>
-    </div>
-    <div class="level-item">
-      <span class="tag {{ if .Params.solutions }}is-success{{ else }}is-light{{ end }}">solusi</span>
     </div>
   </div>
 </div>

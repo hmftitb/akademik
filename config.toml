@@ -4,6 +4,7 @@ languageCode = "id"
 title = "Open Knowledge HMFT-ITB"
 theme = "skullers"
 pluralizelisttitles = false
+enableGitInfo = true
 
 # Privacy settings to respect GDPR,
 # as per v0.41 (https://gohugo.io/about/hugo-and-gdpr/)

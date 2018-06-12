@@ -17,7 +17,7 @@
       </div>
 
       <section class="section has-text-centered" style="padding: 4rem 0 3rem;">
-        <div class="subtitle is-uppercase is-6 is-spaced" style="font-family: 'Open Sans Light'">
+        <div class="subtitle is-uppercase is-6 is-spaced" style="font-family: 'Nunito'">
           <strong>{{ .Params.course_code }}</strong>
           {{ .Params.course_name }}
         </div>
@@ -26,7 +26,7 @@
         </h1>
       </section>
 
-      <div class="has-text-centered-mobile" style="font-family: 'Open Sans'">
+      <div class="has-text-centered-mobile" style="font-family: 'Nunito'">
         <span class="icon">
           <i class="fas fa-chalkboard-teacher"></i>
         </span>
@@ -58,8 +58,11 @@
 
   <section class="section has-text-centered">
     <div>Update terakhir
-      {{ .Params.update }}.
-      <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">Edit di GitHub</a>.</div>
+      {{ .GitInfo.AuthorDate.Day }}
+      {{ index $.Site.Data.tra_id.months (string .GitInfo.AuthorDate.Month) }}
+      {{ .GitInfo.AuthorDate.Year }}.
+      <a href="https://github.com/hmftitb/akademik/issues/new?template=kesalahan-berkas.md">Laporkan kesalahan</a> atau
+      <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">edit berkas ini</a>.</div>
   </section>
 </section>
 {{ end }}

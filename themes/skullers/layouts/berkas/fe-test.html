@@ -51,8 +51,10 @@
 
   <section class="section has-text-centered">
     <div>Update terakhir
-      {{ .Params.update }}.
-      <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">Edit di GitHub</a>.</div>
+      {{ .GitInfo.AuthorDate.Day }}
+      {{ index $.Site.Data.tra_id.months (string .GitInfo.AuthorDate.Month) }}
+      {{ .GitInfo.AuthorDate.Year }}.
+      <a href="https://github.com/hmftitb/akademik/blob/master/content/{{ replace (.File.Path) " " "%20" }}">Edit berkas ini</a> atau <a href="https://github.com/hmftitb/akademik/issues/new?template=kesalahan-berkas.md">laporkan kesalahan</a>.</div>
   </section>
 </section>
 {{ end }}
