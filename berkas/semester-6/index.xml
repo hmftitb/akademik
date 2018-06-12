@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semester 6 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/semester-6/</link>
+    <description>Recent content in Semester 6 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 24 May 2018 08:42:05 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/semester-6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uas-2018/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uas-2018/</guid>
+      <description>Problem 1 (Student Outcome : c(30%)) Given the unity feedback system of Figure 1, where $G(s)=\frac{K(s+2)(s+3)}{(s^2+2s+2)(s+4)(s+5)(s+6)}$, do the following:
+ Sketch the root locus. Find the $j\omega$-axis crossing, and the gain, K, at the crossing. Find all break away and break-in points. Find angles of departure from the complex poles.  
+Problem 2 (Student Outcome : c(20%), e(10%)) Given unity feedback system has the following forward transfer function $G(s)=\frac{K}{s^2(s+4)(s+12)}$. Assume that you can use a second order approxtimation of the closed loop for the analysis of transient response.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uts-2018/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uts-2018/</guid>
+      <description>Problem 1 (Student Outcome : a(10%), c(15%)) For the system of figure 1, find the transfer function $G(s)=\frac{X_1(s)}{F(s)}$
+
+Problem 1 (Student Outcome : c(25%)) Consider the system in Figure 2 and Figure 3.
+ Determine the type of compensator within the system of Figure 2, and the damping ratio for the closed loop system and its steady state error if a unit step reference input is applied. Determine the type of compensator added to the system of Figure 3.</description>
+    </item>
+    
+  </channel>
+</rss>

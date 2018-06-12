@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF 4032 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/</link>
+    <description>Recent content in TF 4032 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 24 May 2018 08:42:05 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/tes-2-2018/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/tes-2-2018/</guid>
+      <description>Soal 1 Menggunakan DFT dengan formulasi Kohn-Sham dan basis gelombang bidang hitunglah energi total dari bahan Cu (asumsikan struktur kristal FCC) sebagai fungsi dari jumlah k-point (1, 2, 3, 4, 5, 6, 7, 8) dan energi cut-off (silahkan tentukan rentang yang relevan dengan persoalan). Gunakan LDA untuk ekspresi fungsional energi exchange-correlation dan norm-conserving pseudopotential. Plot nilai energi total terhadap k-point energi cut-off. Berikan penjelasan dari hasil yang Anda peroleh!
+Soal 2 Menggunakan parameter yang telah Anda peroleh di soal No.</description>
+    </item>
+    
+  </channel>
+</rss>

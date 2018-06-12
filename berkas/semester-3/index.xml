@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semester 3 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/semester-3/</link>
+    <description>Recent content in Semester 3 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 24 May 2018 08:42:05 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/semester-3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2017/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2017/</guid>
+      <description>#Soal 1. Suatu loop persegi dengan panjang sisi $a$, berada pada jarak $s$ dari suatu kawat panjang dengan arus $I$ (Gambar.1)
+ Tentukan besar dan arah medan magnet $\mathbf B$ yang menembus loop. Bila loop digeser menjauh dari kawat (arah pertambahan $s$), tentukan besar ggl yang dibangkitkan! Tentukan juga arah arus (searah atau berlawanan jarum jam)! Bagaimana pula bila loop digerakan ke kanan dengan keepatan $v$ (serarh dengan arus)? Gambar 1   #Soal 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2017/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2017/</guid>
+      <description>#Soal 1. Hitunglah usaha yang dilakukan untuk memindahkan muatan $2C$ yang berada dalam medan listrik \(\textbf{E} = 4x\hat x - 8 y\hat y\) bila muatan tersebut dipindahkan mengikuti lintasan garis lurus yang menghubungkan titik-titik sebagai berikut:
+ Dari titik (4,0,0) ke (0,4,0). Dari titik (4,0,0) ke (0,0,0), kemudian dilanjutkan ke (0,4,0).  #Soal 2. Sebuah bola berongga memiliki rapat muatan $\rho = \frac{k}{r^2}$ di daerah $a \leq r \leq b$ (lihat Gambar.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2016/</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2016/</guid>
+      <description>#Soal 1. Dengan menggunakan hukum Gauss, carilah ekspresi $\mathbf D$ dan $\mathbf E$ di dalam dan di luar suatu silinder panjang tak hingga dengan jari-jari $a$ dan rapat muatan $\rho = r^2$ coulomb per meter kubik dimana $0\leq r\leq a$
+#Soal 2. Sebuah kawat dengan panjang 10 cm sejajar sumbu $x$ dan dialiri arus dc sebesar 2 Ampere dalam arah $+x$. Gaya yang bekerja pada kawat ini akibat suatu medan magnet $\mathbf B$ adalah $3\hat y+ 2\hat z$ Newton.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2016/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2016/</guid>
+      <description>#Soal 1. Diketahui dalam koordinat bola dua buah titik yaitu $A(r=2,\phi=30\degree,\theta=45\degree)$ dan $B(r=1,\phi=60\degree,\theta=30\degree)$. Jika $\vec r_A$ dan $\vec r_B$ berturut-turut menyatakan vektor posisi dari titik $A$ dan $B$ maka tentukanlah $\vec r_A - \vec r_B$ dan panjang $|\vec r_A - \vec r_B|$.
+#Soal 2. Diketahui medan vektor $\mathbf{\vec F} = \mathbf{\vec a_x}y-\mathbf{\vec a_y}x$.
+ Hitunglah integral garis dari medan tersebut yang melalui kontur tertutup $a(1,0) \rightarrow O(0,0)\rightarrow b(0,1) \rightarrow a(1,0)$ dimana kontur $b\rightarrow a$ terletak pada lingkaran $x2+y2=1$.</description>
+    </item>
+    
+  </channel>
+</rss>

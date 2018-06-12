@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF 4027 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/</link>
+    <description>Recent content in TF 4027 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 26 May 2018 23:49:37 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/uas-2018/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/uas-2018/</guid>
+      <description>Buka buku dan catatan, menggunakan kalkulator, laptop, MATLAB/Scilab
+Soal 1 (nilai 30, mengukur outcome c(30), k(10)) Gunakan Tabel 1 sebagai data identifikasi respon kecepatan motor DC \(y\) terhadap input tegangan \(u\) pada waktu \(t\) untuk menjawab soal berikut:
+ Gambarkan respon sistem ini. Berdasarkan pengamatan Anda terhadap respon sistem ini, jelaskan tipe respon sistem. Tentukan parameter dinamik sistem ini berdasarkan model pendekatan yang Anda pilih. Tentukan waktu cacah yang Anda anggap baik untuk merekonstruksi respon sistem ini terhadap input sinyal.</description>
+    </item>
+    
+  </channel>
+</rss>

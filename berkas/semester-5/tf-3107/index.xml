@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF 3107 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/</link>
+    <description>Recent content in TF 3107 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 26 May 2018 22:24:48 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k01/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini:
+ IIR Filter Frequency warping Bilinear transformation Cut-off frequency Butterworth filter Impulse invariance  Soal 2 (Nilai 40, menguji program outcome K, E) Rancang filter Butterworth yang memiliki spesifikiasi :
+ Lowpass Pass band edge -0.1dB, @ $\omega_p = 0.1\pi$ Stop band edge dengan atenuasi minimum 40 dB @ $\omega_s = 0.4\pi$ Gunakan metoda transformasi bilinier tanpa pre-warping.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k02/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k02/</guid>
+      <description>Soal 1 (Nilai 20, Outcome : kemampuan menerapkan teknik (matematik) pengolahan sinyal diskrit (Discrete Convolution and Correlation)) Diberikan dua vektor sinyal diskrit, berturut-turut \(\bar{x}(k)=(1.5\ -1.5\ 1.5\ -1.5\ 1.5\ -1.5\)^T\) dan \(\bar{y}(k)=(-1.0\ 0.5\ -1.0\ 0.5\ -1.0\ 0.5\)^T\).
+ Hitung dan lukiskan konvolusi cyclic \(h_{xy}(k)\). Turunkan formula perkalian vektor korelasi silang antara kedua sinyal diskrit, kemudiam hitung dan lukiskan 5 komponen pertama dari fungsi korelasi silang \(r_{xy}(k)\) dari kedua sinyal yang diberikan.  Soal 2 (Nilai 20, Outcome : kemampuan melakukan disain filter digital jika diberikan model spesifikasi filter (digital filter)) Diberikan respons frekuensi diskrit sebuah filter digital low-pass, LPF, sebagaimana dilukiskan pada gambar berikut, di mana \(\omega_s\) adalah frekuensi sampling.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-2-2017-k01/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-2-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini:
+ Sistem linier waktu invarian kausal Teorema Paley-Wiener Filter FIR Windowing filter Cut-off frequency  Soal 2 (Nilai 20, menguji program outcome A, K, E) Diberikan sinyal \(x(t)=2+4\cos(2\pi t) + 2\cos(2\pi t) + 3\cos(3\pi t) + 2\cos(4\pi t)\) dengan t dalam milidetik
+ Tentukan laju sampling minimum yang tidak akan menimbulkan efek aliasing. Tentukan sinyal \(x_a(t)\) yang akan teralias oleh x(t) karena waktu sampling (cacah) setengah dari frekuensi Nyquist nya.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-1-2017-k01/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-1-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini
+ Sinyal Konverter Analog ke Dijital Sistem waktu diskrit Sinyal dijital Sistem Linier Waktu Invarian Kausal Teorema Parseval Deret Fourier  Soal 2 (Nilai 25, menguji program outcome K) Diketahui span instrumen pengukuran temperatur \(300^\circ \textrm{C}\) dan zero dari rentangnya \(100^\circ \textrm{C}\) dikonversi menjadi sinyal pengukuran elektrik 4-20 mA.
+ Jika transmitter mengirimkan sinyal 9 mA, maka tentukan nilai temperatur yang diukur?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/latihan-uts-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/latihan-uts-2017/</guid>
+      <description>Soal 1 (Nilai 20, menguji program outcome A, K, E) Diberikan sinyal \(x(t)=4+3\cos(\pi t) + 2\cos(2\pi t) + \cos(3\pi t)\) dengan t dalam milidetik
+ Tentukan laju sampling minimum yang tidak akan menimbulkan efek aliasing. Tentukan sinyal \(x_a(t)\) yang akan teralias oleh x(t) karena waktu sampling (cacah) setengah dari frekuensi Nyquist nya.  Soal 2 (Nilai 30, menguji program outcome A, K, E) Rancang filter yang memiliki spesifikasi:
+ Pass band 0-8 kHz Stop band &amp;gt; 10 kHz atenuasi di sekitar -30 dB sampling frequency 20 kHz   Dengan menggunakan window yang sesuai (ambil orde filter ganjil terdekat), tentukan persamaan impuls respon filter.</description>
+    </item>
+    
+  </channel>
+</rss>

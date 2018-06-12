@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF 2105 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/</link>
+    <description>Recent content in TF 2105 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 29 May 2018 17:14:19 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uas-2015-tf2105/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uas-2015-tf2105/</guid>
+      <description>Soal 1 Diberikan rangkaian dioda dengan karakteristik &amp;quot;knee voltage&amp;quot; 0,7 V. Dioda tersebut disusun seperti pada Gambar 1, yang terdiri dari dioda D1,D2,D3, dan D4 yang identik.
+
+ Jika diberikan $V_{in}(t)=12 sin(2\pi50t)$ tentukan dioda-dioda yang &amp;quot;on&amp;quot; atau &amp;quot;off&amp;quot; pada saat Vin&amp;lt;0 dan Vin&amp;gt;0
+ Tentukan tegangan output maksimum dan minimum yang terukur pada titik B serta Vdc rata-rata
+ Tentukan arus yang melewati pada resistor $2k\Omega$ yang dipasang antara titik B dan ground</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2017-tf2105/</link>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2017-tf2105/</guid>
+      <description>Soal 1 Diberikan rangkaian sebagai berikut
+
+Jika S(Siemen) menyatakan konduktifitas yang merupakan 1/resistansi, tentukan :
+Metode Node
+ Persamaan yang menyatakan arus masuk dan arus keluar pada setiap node. Tentukan tegangan pada v1, v2, dan v3.  Soal 2 Diberikan rangkaian sebagai berikut
+
+ Dengan metode mesh tentukan arus Io Dengan menentukan rangkaian setara Norton terhadap terminal ab pada keadaan short, ubahlah menjadi rangkaian setara Norton yang terdiri dari 1 sumber arus dan 1 resistansi serta Arus Io setelah rangkaian tersebut dihubungkan ke resistor $R_L = 5 \ \Omega$ Apakah $R_L = 5 \ \Omega$ memberikan kondisi transfer daya maksimum pada beban $R_L$ tersebut, jelaskan singkat  Soal 3 Diberikan rangkaian sebagai berikut</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2015-tf2105/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2015-tf2105/</guid>
+      <description>Soal 1 Tentukan resistansi total jika diukur pada terminal a-b (bobot penilaian 15%)
+
+Soal 2 Tentukan besarnya I dan Vs (bobot penilaian 15%)
+
+Soal 3 Dalam teori analisa rangkaian, saudara telah mempelajari beragam metode, antara lain metode node dan mesh. Diberikan rangkaian sebagai gambar disamping. (bobot penilaian 25%)
+
+Soal 4 Dengan menggunakan prinsip source transformation, tentukan I pada rangkaian yang diberikan (bobot penilaian 20%)
+
+Soal 5 Diberikan rangkaian seperti pada Gambar disamping.</description>
+    </item>
+    
+  </channel>
+</rss>

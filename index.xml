@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/</link>
+    <description>Recent content on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/uas-2018/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4027/uas-2018/</guid>
+      <description>Buka buku dan catatan, menggunakan kalkulator, laptop, MATLAB/Scilab
+Soal 1 (nilai 30, mengukur outcome c(30), k(10)) Gunakan Tabel 1 sebagai data identifikasi respon kecepatan motor DC \(y\) terhadap input tegangan \(u\) pada waktu \(t\) untuk menjawab soal berikut:
+ Gambarkan respon sistem ini. Berdasarkan pengamatan Anda terhadap respon sistem ini, jelaskan tipe respon sistem. Tentukan parameter dinamik sistem ini berdasarkan model pendekatan yang Anda pilih. Tentukan waktu cacah yang Anda anggap baik untuk merekonstruksi respon sistem ini terhadap input sinyal.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uas2018/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uas2018/</guid>
+      <description>#Soal 1. Perambatan Gelombang Elektromagnetik(EM) pada metal harus memperhatikan parameter dari medium antara lain permitivity ($\epsilon$), permeability ($\mu$) dan resistivity ($\eta$). Parameter resistivity metal dinyatakan dengan \(\eta = \frac{m_e.v_e}{n_0 e^2}\ (\Omega.m)\) dimana $m_e$ = massa elektron (kg), $n_0$ = kerapatan elektron ($m^{-3}$), $v_e$ = frekuensi tumbukan elektron ($s^{-1}$), e = muatan elektron (C). Persamaan untuk gelombang E dinyatakan dalam \(\frac{\partial^2E}{\partial x^2}=\epsilon\mu\frac{\partial^2E}{\partial t^2}+\frac{\mu}{\eta} \frac{\partial E}{\partial t}\) Untuk kasus perambatan pada metal diasumsikan solusi persamaan gelombang adalah:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uas-2018/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uas-2018/</guid>
+      <description>Soal 1 Hasil rancangan arsitektur suatu hall berukuran panjang 40 m, lebar 30 m, dan tinggi 7 m memiliki material sebagai berikut: lantai keramik, dinding bata plester, langit-langit gypsum. Karakteristik akustik material tersebut dapat dilihat di lampiran.
+Ruangan tersebut direncanakan akan dimanfaatkan sebagai ruang auditorium.
+ Hitung waktu dengung (Sabine) ruangan sebelum dilakukan treatment akustik.
+ Dengan memanfaatkan material akustik yang disediakan (lihat lampiran), tentukan waktu dengung ruangan agar berfungsi sebagai auditorium dan tentukan luasan masing-masing material akustik agar waktu dengung tersebut tercapai.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uaskls1-2018-tf2203/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uaskls1-2018-tf2203/</guid>
+      <description>Berikan jawaban untuk soal no.1 atau no.2 serta soal no.3 dan no.4
+Soal 1 Outcomes B Experimental Training
+Jelaskan prinsip kerja dari jenis-jenis Flip-Flops berikut ini :
+ D Flip-Flops T Flip-Flops SR Flip-Flops JK Flip-Flops  Soal 2 Outcomes E Problem Solving
+Dari diagram state dibawah ini tentukan
+
+ Tabel keadaan Rangkaian sekuensial dengan menggunakan T flip-Flops  Soal 3 Outcomes B Experimental Training
+Buat implementasi dari rangkaian sekuensial dengan menggunakan JK flip-flops yang memenuhi tabel state berikut ini :</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uts-2018/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uts-2018/</guid>
+      <description>Soal 1: Persamaan Gelombang Suara Persamaan konservasi massa dan momentum yang berlaku pada elemen akustik dapat ditulis sebagai berikut.
+\[ \frac{ \partial \rho_{tot} }{ \partial t } + \frac{ \partial \rho_{tot} u }{ \partial x } = 0;\ \frac{ \partial u }{ \partial t } + u \frac{ \partial u }{ \partial t } = -\frac{1}{ \rho_{tot} } \frac{ \partial p_{tot} }{ \partial x } \]
+Dengan dua persamaan di atas dan \(p = c^2_0 \rho\), maka</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uas-2018/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uas-2018/</guid>
+      <description>Problem 1 (Student Outcome : c(30%)) Given the unity feedback system of Figure 1, where $G(s)=\frac{K(s+2)(s+3)}{(s^2+2s+2)(s+4)(s+5)(s+6)}$, do the following:
+ Sketch the root locus. Find the $j\omega$-axis crossing, and the gain, K, at the crossing. Find all break away and break-in points. Find angles of departure from the complex poles.  
+Problem 2 (Student Outcome : c(20%), e(10%)) Given unity feedback system has the following forward transfer function $G(s)=\frac{K}{s^2(s+4)(s+12)}$. Assume that you can use a second order approxtimation of the closed loop for the analysis of transient response.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uts-2018/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3203/uts-2018/</guid>
+      <description>Problem 1 (Student Outcome : a(10%), c(15%)) For the system of figure 1, find the transfer function $G(s)=\frac{X_1(s)}{F(s)}$
+
+Problem 1 (Student Outcome : c(25%)) Consider the system in Figure 2 and Figure 3.
+ Determine the type of compensator within the system of Figure 2, and the damping ratio for the closed loop system and its steady state error if a unit step reference input is applied. Determine the type of compensator added to the system of Figure 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uts2018/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uts2018/</guid>
+      <description>#Soal 1. Suatu sistem bantalan kompressor di industri dimodelkan seperti pada Gambar 1. Diberikan data, massa dari kompressor(M) adalah 50 Kg, dan kekakuan dari tiap pegas (K) adalah 5 $\frac{kN}{m}$ dan resistansi mekanik (Rm) adalah 140 $\frac{kg}{sec}$. Jika dalam keadaan on, kompressor menyebabkan gaya harmonik yang bekerja pada bantalan adalah $f(t)=10\ cos(5t)$
+Gambar 1  Tentukan impedansi mekanik dari sistem untuk pompa dalam on Tulislah persamaan diferensial untuk simpangan $y(t)$ pada saat pompa keadaan on Tentukan kecepatan $\frac{dy(t)}{dt}$ pada keadaan tunak, serta tentukan beda fasa antara kecepatan dan gaya harmonik pada saat pompa on Energi kinetik maksimum pada pompa pada saat pompa on dan off  #Soal 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/tes-2-2018/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/pilihan-prodi/tf-4032/tes-2-2018/</guid>
+      <description>Soal 1 Menggunakan DFT dengan formulasi Kohn-Sham dan basis gelombang bidang hitunglah energi total dari bahan Cu (asumsikan struktur kristal FCC) sebagai fungsi dari jumlah k-point (1, 2, 3, 4, 5, 6, 7, 8) dan energi cut-off (silahkan tentukan rentang yang relevan dengan persoalan). Gunakan LDA untuk ekspresi fungsional energi exchange-correlation dan norm-conserving pseudopotential. Plot nilai energi total terhadap k-point energi cut-off. Berikan penjelasan dari hasil yang Anda peroleh!
+Soal 2 Menggunakan parameter yang telah Anda peroleh di soal No.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/pr-2018/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/pr-2018/</guid>
+      <description>Soal 1 (contoh PR)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/kuis-2018/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/kuis-2018/</guid>
+      <description>Soal 1 (contoh kuis)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2017/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2017/</guid>
+      <description>#Soal 1. Suatu loop persegi dengan panjang sisi $a$, berada pada jarak $s$ dari suatu kawat panjang dengan arus $I$ (Gambar.1)
+ Tentukan besar dan arah medan magnet $\mathbf B$ yang menembus loop. Bila loop digeser menjauh dari kawat (arah pertambahan $s$), tentukan besar ggl yang dibangkitkan! Tentukan juga arah arus (searah atau berlawanan jarum jam)! Bagaimana pula bila loop digerakan ke kanan dengan keepatan $v$ (serarh dengan arus)? Gambar 1   #Soal 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k01/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini:
+ IIR Filter Frequency warping Bilinear transformation Cut-off frequency Butterworth filter Impulse invariance  Soal 2 (Nilai 40, menguji program outcome K, E) Rancang filter Butterworth yang memiliki spesifikiasi :
+ Lowpass Pass band edge -0.1dB, @ $\omega_p = 0.1\pi$ Stop band edge dengan atenuasi minimum 40 dB @ $\omega_s = 0.4\pi$ Gunakan metoda transformasi bilinier tanpa pre-warping.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k02/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uas-2017-k02/</guid>
+      <description>Soal 1 (Nilai 20, Outcome : kemampuan menerapkan teknik (matematik) pengolahan sinyal diskrit (Discrete Convolution and Correlation)) Diberikan dua vektor sinyal diskrit, berturut-turut \(\bar{x}(k)=(1.5\ -1.5\ 1.5\ -1.5\ 1.5\ -1.5\)^T\) dan \(\bar{y}(k)=(-1.0\ 0.5\ -1.0\ 0.5\ -1.0\ 0.5\)^T\).
+ Hitung dan lukiskan konvolusi cyclic \(h_{xy}(k)\). Turunkan formula perkalian vektor korelasi silang antara kedua sinyal diskrit, kemudiam hitung dan lukiskan 5 komponen pertama dari fungsi korelasi silang \(r_{xy}(k)\) dari kedua sinyal yang diberikan.  Soal 2 (Nilai 20, Outcome : kemampuan melakukan disain filter digital jika diberikan model spesifikasi filter (digital filter)) Diberikan respons frekuensi diskrit sebuah filter digital low-pass, LPF, sebagaimana dilukiskan pada gambar berikut, di mana \(\omega_s\) adalah frekuensi sampling.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2017/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2017/</guid>
+      <description>#Soal 1. Hitunglah usaha yang dilakukan untuk memindahkan muatan $2C$ yang berada dalam medan listrik \(\textbf{E} = 4x\hat x - 8 y\hat y\) bila muatan tersebut dipindahkan mengikuti lintasan garis lurus yang menghubungkan titik-titik sebagai berikut:
+ Dari titik (4,0,0) ke (0,4,0). Dari titik (4,0,0) ke (0,0,0), kemudian dilanjutkan ke (0,4,0).  #Soal 2. Sebuah bola berongga memiliki rapat muatan $\rho = \frac{k}{r^2}$ di daerah $a \leq r \leq b$ (lihat Gambar.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-2-2017-k01/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-2-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini:
+ Sistem linier waktu invarian kausal Teorema Paley-Wiener Filter FIR Windowing filter Cut-off frequency  Soal 2 (Nilai 20, menguji program outcome A, K, E) Diberikan sinyal \(x(t)=2+4\cos(2\pi t) + 2\cos(2\pi t) + 3\cos(3\pi t) + 2\cos(4\pi t)\) dengan t dalam milidetik
+ Tentukan laju sampling minimum yang tidak akan menimbulkan efek aliasing. Tentukan sinyal \(x_a(t)\) yang akan teralias oleh x(t) karena waktu sampling (cacah) setengah dari frekuensi Nyquist nya.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-1-2017-k01/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/uts-1-2017-k01/</guid>
+      <description>Soal 1 (Nilai 15, menguji program outcome A) Terangkan dengan singkat dan jelas terminologi berikut ini
+ Sinyal Konverter Analog ke Dijital Sistem waktu diskrit Sinyal dijital Sistem Linier Waktu Invarian Kausal Teorema Parseval Deret Fourier  Soal 2 (Nilai 25, menguji program outcome K) Diketahui span instrumen pengukuran temperatur \(300^\circ \textrm{C}\) dan zero dari rentangnya \(100^\circ \textrm{C}\) dikonversi menjadi sinyal pengukuran elektrik 4-20 mA.
+ Jika transmitter mengirimkan sinyal 9 mA, maka tentukan nilai temperatur yang diukur?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/latihan-uts-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-5/tf-3107/latihan-uts-2017/</guid>
+      <description>Soal 1 (Nilai 20, menguji program outcome A, K, E) Diberikan sinyal \(x(t)=4+3\cos(\pi t) + 2\cos(2\pi t) + \cos(3\pi t)\) dengan t dalam milidetik
+ Tentukan laju sampling minimum yang tidak akan menimbulkan efek aliasing. Tentukan sinyal \(x_a(t)\) yang akan teralias oleh x(t) karena waktu sampling (cacah) setengah dari frekuensi Nyquist nya.  Soal 2 (Nilai 30, menguji program outcome A, K, E) Rancang filter yang memiliki spesifikasi:
+ Pass band 0-8 kHz Stop band &amp;gt; 10 kHz atenuasi di sekitar -30 dB sampling frequency 20 kHz   Dengan menggunakan window yang sesuai (ambil orde filter ganjil terdekat), tentukan persamaan impuls respon filter.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-8/tf-4092/fe-2017-sesi-2/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-8/tf-4092/fe-2017-sesi-2/</guid>
+      <description>Soal 1 The following equation describe the decomposition of potassium chlorate to produce oxygen gas.
+\[ 2\ KClO_3 \longrightarrow 2\ KCl + 3\ O_2 \]
+Approximately how many grams of \(KClO_3\) must be used to produce \(6.5 \text{ L}\) of \(O_2\) gas measured at \(7200 \text{ torr}\) and \(35^\circ \text{C}\)?
+ 159.0 g 17.4 g 2.0 g 299.5 g 199.7 g    Solusi Solusi 1 [...]
+ [...]</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2016/</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uas2016/</guid>
+      <description>#Soal 1. Dengan menggunakan hukum Gauss, carilah ekspresi $\mathbf D$ dan $\mathbf E$ di dalam dan di luar suatu silinder panjang tak hingga dengan jari-jari $a$ dan rapat muatan $\rho = r^2$ coulomb per meter kubik dimana $0\leq r\leq a$
+#Soal 2. Sebuah kawat dengan panjang 10 cm sejajar sumbu $x$ dan dialiri arus dc sebesar 2 Ampere dalam arah $+x$. Gaya yang bekerja pada kawat ini akibat suatu medan magnet $\mathbf B$ adalah $3\hat y+ 2\hat z$ Newton.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2016/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2106/uts2016/</guid>
+      <description>#Soal 1. Diketahui dalam koordinat bola dua buah titik yaitu $A(r=2,\phi=30\degree,\theta=45\degree)$ dan $B(r=1,\phi=60\degree,\theta=30\degree)$. Jika $\vec r_A$ dan $\vec r_B$ berturut-turut menyatakan vektor posisi dari titik $A$ dan $B$ maka tentukanlah $\vec r_A - \vec r_B$ dan panjang $|\vec r_A - \vec r_B|$.
+#Soal 2. Diketahui medan vektor $\mathbf{\vec F} = \mathbf{\vec a_x}y-\mathbf{\vec a_y}x$.
+ Hitunglah integral garis dari medan tersebut yang melalui kontur tertutup $a(1,0) \rightarrow O(0,0)\rightarrow b(0,1) \rightarrow a(1,0)$ dimana kontur $b\rightarrow a$ terletak pada lingkaran $x2+y2=1$.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uas-2016-tf2203/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uas-2016-tf2203/</guid>
+      <description>Soal 1 (30%) Outcomes E (Problem Solving)
+Perhatikan gambar rangkaian berikut :
+
+ Turunkan state table dari rangkaian Gambarkan state diagram dari rangkaian Lakukan redesain rangkaian dengan mengubah flip-flop di Q1 (yaitu D flip-flop) dengan JK flip-flop dan flip-flop di Q2 (yaitu D flip-flop) dengan T flip-flop.  Soal 2 (30%) Outcomes B (Experimental Training)
+Ilustrasikan output Q0-Q4 untuk 5-bit input 11010 yang masuk ke dalam rangkaian shift register di bawah ini :</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uts2016/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uts2016/</guid>
+      <description>#Soal 1. Diberikan suatu batang uniform dengan massa M (kg), dan panjang batang L(m) berayun pada poros A. Jika momen inersia (I) dari batang dengan poros A adalah $\frac{1}{3}ML^2$ dan batang berayun dengan sudut $\theta$ yang kecil, Tentukan
+Gambar 1  Tentukan persamaan diferensial yang menyatakan gerak rotasional harmonik pada batang tersebut Tentukan frekuensi osilasi dari ayunan batang tersebut  #Soal 2. Gelombang elektromagnetik dalam ionospheric plasma memiliki relasi frekuensi gelombang($\omega$) etrhadap bilangan gelombang (k) dinyatakan dalam \(\omega^2=\beta^2+c^2k^2\) Dimana c adalah kecepatan cahaya dalam ruang hampa dan $\beta^2$ adalah konstanta frekuensi plasma, Tentukan</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uts-2016-tf2203/</link>
+      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2203/uts-2016-tf2203/</guid>
+      <description>Soal 1 (15%) Outcomes E (Problem Solving)
+ Representasikan angka 94704 dengan menggunakan kode BCD. Tunjukkan bagaimana komputer 8 bit menggunakan sistem bilangan komplemen-2 melakukan perhitungan angka desimal (-29)-(125). Jelaskan kegunaan sistem bilangan komplemen-2 dibandingkan dengan sistem bilangan biner biasa.  Soal 2 (15%) Outcomes A (Scientific Expertise)
+Diberikan dua buah fungsi Logika \( F_1 = \bar{X}.\bar{Y} + \bar{Y}.Z \) \( F_2 = X.Y + X.Z + Y.Z \) Lakukanlah penyederhanaan menggunakan aljabar Boole pada fungsi $F_3 = F_1 + F_2$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uas-2015-tf2105/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uas-2015-tf2105/</guid>
+      <description>Soal 1 Diberikan rangkaian dioda dengan karakteristik &amp;quot;knee voltage&amp;quot; 0,7 V. Dioda tersebut disusun seperti pada Gambar 1, yang terdiri dari dioda D1,D2,D3, dan D4 yang identik.
+
+ Jika diberikan $V_{in}(t)=12 sin(2\pi50t)$ tentukan dioda-dioda yang &amp;quot;on&amp;quot; atau &amp;quot;off&amp;quot; pada saat Vin&amp;lt;0 dan Vin&amp;gt;0
+ Tentukan tegangan output maksimum dan minimum yang terukur pada titik B serta Vdc rata-rata
+ Tentukan arus yang melewati pada resistor $2k\Omega$ yang dipasang antara titik B dan ground</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2017-tf2105/</link>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2017-tf2105/</guid>
+      <description>Soal 1 Diberikan rangkaian sebagai berikut
+
+Jika S(Siemen) menyatakan konduktifitas yang merupakan 1/resistansi, tentukan :
+Metode Node
+ Persamaan yang menyatakan arus masuk dan arus keluar pada setiap node. Tentukan tegangan pada v1, v2, dan v3.  Soal 2 Diberikan rangkaian sebagai berikut
+
+ Dengan metode mesh tentukan arus Io Dengan menentukan rangkaian setara Norton terhadap terminal ab pada keadaan short, ubahlah menjadi rangkaian setara Norton yang terdiri dari 1 sumber arus dan 1 resistansi serta Arus Io setelah rangkaian tersebut dihubungkan ke resistor $R_L = 5 \ \Omega$ Apakah $R_L = 5 \ \Omega$ memberikan kondisi transfer daya maksimum pada beban $R_L$ tersebut, jelaskan singkat  Soal 3 Diberikan rangkaian sebagai berikut</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2015-tf2105/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-3/tf-2105/uts-2015-tf2105/</guid>
+      <description>Soal 1 Tentukan resistansi total jika diukur pada terminal a-b (bobot penilaian 15%)
+
+Soal 2 Tentukan besarnya I dan Vs (bobot penilaian 15%)
+
+Soal 3 Dalam teori analisa rangkaian, saudara telah mempelajari beragam metode, antara lain metode node dan mesh. Diberikan rangkaian sebagai gambar disamping. (bobot penilaian 25%)
+
+Soal 4 Dengan menggunakan prinsip source transformation, tentukan I pada rangkaian yang diberikan (bobot penilaian 20%)
+
+Soal 5 Diberikan rangkaian seperti pada Gambar disamping.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uas2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-4/tf-2205/uas2017/</guid>
+      <description>#Soal 1. Kabel koaxial beserta dimensi dari konstruksi kabel diberikan pada Gambar 1. Pada kondisi daerah dimana $a&amp;lt;r&amp;lt;b$ diisi udara, maka kapasitansi persatuan panjang : $2\pi\epsilon_0[\frac{1}{ln(b/a)}] \frac{F}{m}$ induktansi persatuan panjang : $(\frac{\mu_o}{2\pi})ln(b/a)\frac{H}{m}$
+Gambar 1 Gambar 2  Tentukan impedansi karakteristik dan kecepatan rambat gelombang dalam kondisi $a&amp;lt;r&amp;lt;b$ diisi udara Secara komersial, hampir tidak ada kabel koaxial tanpa menggunakan bahan dielektrik pada daerah $a&amp;lt;r&amp;lt;b$. Jika diisi dengan bahan material Polyethylene (lihat Gambar 2), diinginkan besar impedansi karakteristik adalah $50\ \Omega$.</description>
+    </item>
+    
+  </channel>
+</rss>

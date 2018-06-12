@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF 3204 on Open Knowledge HMFT-ITB</title>
+    <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/</link>
+    <description>Recent content in TF 3204 on Open Knowledge HMFT-ITB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 02 Jun 2018 12:02:30 +0700</lastBuildDate>
+    
+	<atom:link href="https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uas-2018/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uas-2018/</guid>
+      <description>Soal 1 Hasil rancangan arsitektur suatu hall berukuran panjang 40 m, lebar 30 m, dan tinggi 7 m memiliki material sebagai berikut: lantai keramik, dinding bata plester, langit-langit gypsum. Karakteristik akustik material tersebut dapat dilihat di lampiran.
+Ruangan tersebut direncanakan akan dimanfaatkan sebagai ruang auditorium.
+ Hitung waktu dengung (Sabine) ruangan sebelum dilakukan treatment akustik.
+ Dengan memanfaatkan material akustik yang disediakan (lihat lampiran), tentukan waktu dengung ruangan agar berfungsi sebagai auditorium dan tentukan luasan masing-masing material akustik agar waktu dengung tersebut tercapai.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uts-2018/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/uts-2018/</guid>
+      <description>Soal 1: Persamaan Gelombang Suara Persamaan konservasi massa dan momentum yang berlaku pada elemen akustik dapat ditulis sebagai berikut.
+\[ \frac{ \partial \rho_{tot} }{ \partial t } + \frac{ \partial \rho_{tot} u }{ \partial x } = 0;\ \frac{ \partial u }{ \partial t } + u \frac{ \partial u }{ \partial t } = -\frac{1}{ \rho_{tot} } \frac{ \partial p_{tot} }{ \partial x } \]
+Dengan dua persamaan di atas dan \(p = c^2_0 \rho\), maka</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/pr-2018/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/pr-2018/</guid>
+      <description>Soal 1 (contoh PR)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/kuis-2018/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmftitb.github.io/akademik/berkas/semester-6/tf-3204/kuis-2018/</guid>
+      <description>Soal 1 (contoh kuis)</description>
+    </item>
+    
+  </channel>
+</rss>
